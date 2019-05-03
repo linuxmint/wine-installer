@@ -7,6 +7,23 @@ Standards-Version: 3.9.5
 
 Package: wine
 Architecture: all
-Depends: wine-stable | wine-development, winetricks
+Depends: wine-ubuntu-stable | wine-ubuntu-development, wine-desktop-files, fonts-wine, wine-binfmt, winetricks
 Description: Microsoft Windows Compatibility Layer
- Microsoft Windows Compatibility Layer (Metapackage and desktop files)
+ Microsoft Windows Compatibility Layer (Metapackage)
+
+Package: wine-desktop-files
+Architecture: all
+Description: Microsoft Windows Compatibility Layer
+ Microsoft Windows Compatibility Layer (Desktop files)
+
+Package: wine-ubuntu-stable
+Architecture: any
+Depends: wine-stable, wine64 [amd64], wine32
+Description: Microsoft Windows Compatibility Layer
+ Microsoft Windows Compatibility Layer (Metapackage for the ubuntu stable version)
+
+Package: wine-ubuntu-development
+Architecture: any
+Depends: wine-development, wine64-development [amd64], wine32-development
+Description: Microsoft Windows Compatibility Layer
+ Microsoft Windows Compatibility Layer (Metapackage for the ubuntu development version)
