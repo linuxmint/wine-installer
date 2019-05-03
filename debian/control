@@ -1,0 +1,12 @@
+Source: wine-meta
+Section: admin
+Priority: optional
+Maintainer: Linux Mint <root@linuxmint.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+
+Package: wine
+Architecture: all
+Depends: wine-stable | wine-development, winetricks
+Description: Microsoft Windows Compatibility Layer
+ Microsoft Windows Compatibility Layer (Metapackage and desktop files)
