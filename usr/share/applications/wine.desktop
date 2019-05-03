@@ -24,6 +24,7 @@ Name[sr@latin]=Wine - dizač Windows programa
 Name[hr]=Wine - dizač Windows programa
 Name[he]=Wine — מריץ תכניות Windows
 Name[ja]=Wine Windowsプログラムローダー
+Name[tr]=Wine Windows Program Yükleyicisi
 Exec=wine start /unix %f
 MimeType=application/x-ms-dos-executable;application/x-msi;application/x-ms-shortcut;
 Icon=wine
