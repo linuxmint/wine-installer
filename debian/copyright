@@ -1,7 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: wine-meta
+Upstream-Name: wine-installer
 Upstream-Contact: Linux Mint <root@linuxmint.com>
-Source: https://github.com/linuxmint/wine-meta
+Source: https://github.com/linuxmint/wine-installer
 
 Files: *
 Copyright: 2019 Linux Mint <root@linuxmint.com>
