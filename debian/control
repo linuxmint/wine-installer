@@ -7,7 +7,7 @@ Standards-Version: 3.9.5
 
 Package: wine-installer
 Architecture: all
-Depends: winehq-stable | winehq-devel | winehq-staging, wine-desktop-files, libcapi20-3, libgsm1, libodbc1, libosmesa6, libsdl2-2.0-0, libsane1, libcapi20-3:i386, libgsm1:i386, libodbc1:i386, libosmesa6:i386, libsdl2-2.0-0:i386, libsane1:i386, gstreamer1.0-plugins-base:i386, libgpm2:i386, libsasl2-modules:i386, libcups2:i386, libglu1-mesa:i386 | libglu1:i386, libgssapi-krb5-2:i386, libkrb5-3:i386, libv4l-0:i386, libxcomposite1:i386, libxslt1.1:i386
+Depends: wine
 Description: Microsoft Windows Compatibility Layer
  This package installs the stable version of WINE from WINEHQ, along with desktop files and libraries for WINE to work properly.
  This is the recommended way to install WINE within Linux Mint.
