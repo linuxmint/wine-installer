@@ -1,3 +1,16 @@
+wine-installer (5.0.1) ulyana; urgency=medium
+
+  [ Butterfly ]
+  * wine-installer: add Turkish translations (#2)
+
+  [ gogogogi ]
+  * Add Croatian language (#3)
+
+  [ Clement Lefebvre ]
+  * Depend simply on wine
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 06 Jun 2020 14:13:51 +0100
+
 wine-installer (4.0.5) tessa; urgency=medium
 
   * Change source repo from wine-meta to wine-installer
