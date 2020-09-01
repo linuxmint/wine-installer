@@ -1,3 +1,9 @@
+wine-installer (5.0.3) ulyana; urgency=medium
+
+  * Recommend wine32, wine64 (wine32 doesn't get installed otherwise).
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 01 Sep 2020 17:04:55 +0100
+
 wine-installer (5.0.2) ulyana; urgency=medium
 
   * Add dependency on wine-desktop-files
