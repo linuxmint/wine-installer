@@ -12,7 +12,6 @@ Recommends: wine64, wine32
 Description: Microsoft Windows Compatibility Layer
  This package installs the stable version of WINE from WINEHQ, along with desktop files and libraries for WINE to work properly.
  This is the recommended way to install WINE within Linux Mint.
-.
 
 Package: wine-desktop-files
 Architecture: all
